@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js"></script>
+
+  <title>Fylo data storage component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="grid-container">
+
+      <div class="one">
+        <img src="./assets/logo-white.svg" alt="fylo">
+        <ul>
+          <li><img src="./assets/icon-document.svg" alt="document"></li>
+          <li><img src="./assets/icon-folder.svg" alt="folder"></li>
+          <li><img src="./assets/icon-upload.svg" alt="upload"></li>
+        </ul>
+      </div>
+      <div class="two">
+        <p>
+          You’ve used <span id="used-giga">815 GB</span> of your storage
+        </p>
+        <div id="myProgress">
+          <div id="myBar">
+            <div id="progressPoint"></div>
+          </div>
+          <p id="zero-giga">0 GB</p>
+          <p id="thousand-giga">1000 GB</p>
+        </div>
+      </div>
+      <div id="lef-giga" class="tri-btm-right">
+       <p>
+        <span id="left-giga-number">185</span> <span id="left-giga-word">GB Left</span>
+       </p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
